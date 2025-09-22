@@ -18,7 +18,7 @@ void loop() {
   float t = dht.readTemperature();
 
   if (isnan(h) || isnan(t)) {
-    Serial.println(F("Error lendo los sensores!"));
+    Serial.println(F("Error leyendo los sensores!"));
     return;
   }
   Serial.print(F("Humedad: "));
