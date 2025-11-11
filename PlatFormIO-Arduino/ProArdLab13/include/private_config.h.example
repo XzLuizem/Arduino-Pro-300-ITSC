@@ -1,0 +1,24 @@
+#ifndef PRIVATE_CONFIG_H
+#define PRIVATE_CONFIG_H
+
+// ==============================
+// Configuración de dispositivo
+// ==============================
+
+// Red Wi-Fi
+#define WIFI_SSID "tu_red_wifi"
+#define WIFI_PASSWORD "tu_password_wifi"
+
+// Acceso web
+#define WWW_USERNAME "admin"
+#define WWW_PASSWORD "tu_password_web"
+
+// ==============================
+// Configuración avanzada
+// ==============================
+
+// Timeouts y reintentos
+#define WIFI_CONNECT_TIMEOUT 10000  // ms
+#define WIFI_RETRY_DELAY 5000       // ms
+
+#endif // PRIVATE_CONFIG_H
